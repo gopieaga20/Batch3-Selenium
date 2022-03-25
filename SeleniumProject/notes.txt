@@ -1,0 +1,60 @@
+Cucumber framework; (BDD)
+
+- Feature file - Features: Scenario
+Given - launch the URL
+And
+When - Enter credentials
+And - Click login 
+Then - Validate the login user
+And 
+ Background & But
+- StepDefinition(package) - Execution code
+
+
+- Runner - Using runner file, execution code will run
+
+
+Cucumber Install
+
+Help - Eclipse marketplace - Cucumber - Click Install - Accept Agreement - Click Install Anyway - Restart
+
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+alertIsPresent()
+elementSelectionStateToBe()
+elementToBeClickable()
+elementToBeSelected()
+frameToBeAvaliableAndSwitchToIt()
+invisibilityOfTheElementLocated()
+invisibilityOfElementWithText()
+presenceOfAllElementsLocatedBy()
+presenceOfElementLocated()
+textToBePresentInElement()
+textToBePresentInElementLocated()
+textToBePresentInElementValue()
+titleIs()
+titleContains()
+visibilityOf()
+visibilityOfAllElements()
+visibilityOfAllElementsLocatedBy()
+visibilityOfElementLocated(By.id())
+
+driver.findElement(By.id()).isDisplayed
+
+
+
+
+TestNG;
+
+@BeforeSuite - 1
+@BeforeTest - 2
+@BeforeClass - 3
+@BeforeMethod - 4
+@Test - 5
+@AfterMethod - 6
+@BeforeClass - 7
+@AfterTest - 8
+@AfterSuite - 9
+
+
